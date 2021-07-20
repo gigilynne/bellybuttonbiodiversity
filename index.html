@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<!-- container for Test ID an Demographic Info -->
 
   <div class="container">
     <div class="row">
@@ -21,7 +22,7 @@
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>Test Subject ID No.:</h5>
+          <h5>Test Subject ID:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
@@ -30,7 +31,28 @@
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
+       
+       <!-- create select for OTU dropdown -->
+        <div class="row"
+          <div class="col-md-2">
+           <div class="well">
+           <h5>Top 10 OTUs</h5>
+            <select id="selDataset" onchange="getData(this.value)">
+              <option value="dataset1">OTU 1</option>
+              <option value="dataset2">OTU 2</option>
+              <option value="dataset3">OTU 3</option>
+              <option value="dataset4">OTU 4</option>
+              <option value="dataset5">OTU 5</option>
+              <option value="dataset6">OTU 6</option>
+              <option value="dataset7">OTU 7</option>
+              <option value="dataset8">OTU 8</option>
+              <option value="dataset9">OTU 9</option>
+              <option value="dataset10">OTU 10</option>
+            </select>
+          </div> 
+       </div> 
       </div>
+
       <div class="col-md-5">
         <div id="bar"></div>
       </div>
