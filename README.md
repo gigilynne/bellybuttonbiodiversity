@@ -38,7 +38,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
 
 
-## Advanced Challenge Assignment (Optional)
+<!-- ## Advanced Challenge Assignment (Optional)
 
 The following task is advanced and therefore optional.
 
@@ -46,24 +46,12 @@ The following task is advanced and therefore optional.
 
 * You will need to modify the example gauge code to account for values ranging from 0 through 9.
 
-* Update the chart whenever a new sample is selected.
+* Update the chart whenever a new sample is selected. -->
 
 
 ## Deployment
 
-* Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo.
-
-* Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-## Hints
-
-* Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
-
-* Refer to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
-
-## Rubric
-
-[Unit 15 Rubric - Plot.ly Homework - Belly Button Biodiversity](https://docs.google.com/document/d/14ZKfNF4ws6CxlUsrhI81Q3YD06h0QQ1PbZa6BMnr7w4/edit?usp=sharing)
+* Find the dashboard here: https://gigilynne.github.io/bellybuttonbiodiversity/ 
 
 - - -
 
